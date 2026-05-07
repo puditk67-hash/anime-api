@@ -14,8 +14,4 @@ app.get('/', (req, res) => {
   res.send('Anime API is running');
 });
 
-const PORT = 3333;
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+module.exports = app;
